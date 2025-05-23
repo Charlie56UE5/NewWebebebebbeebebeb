@@ -1,0 +1,120 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1,
+p {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Login Page Styles */
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.login-container h1 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+.login-container input:focus {
+    border-color: #4a90e2;
+    outline: none;
+}
+
+.login-container button {
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.login-container button:hover {
+    background-color: #357ab7;
+}
+
+.login-container p {
+    margin-top: 20px;
+    color: #777;
+    font-size: 14px;
+}
+
+/* Dashboard Page Styles */
+.dashboard-container {
+    width: 80%;
+    max-width: 600px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.dashboard-container h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dashboard-container p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+    line-height: 1.5;
+}
+
+/* Add some spacing and rounded borders to the credentials */
+.dashboard-container p strong {
+    font-weight: 700;
+}
+
+.dashboard-container p span {
+    background-color: #f8f9fa;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    color: #4a90e2;
+}
